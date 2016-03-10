@@ -12,7 +12,7 @@ fi
 apt-get install software-properties-common -y
 add-apt-repository ppa:aaronr/spacewalk -y
 apt-get update -y
-apt-get install apt-transport-spacewalk rhnsd -y
+apt-get install apt-transport-spacewalk rhnsd python-libxml2 -y
 
 mkdir /var/lock/subsys
 
